@@ -69,7 +69,7 @@ module.exports = (Command) => {
                 const response = await axios.head(selectedDownload.link);
                 const directDownloadLink = response.request.res.responseUrl;
                 const fileSizeBytes = parseInt(response.headers['content-length'], 10);
-                const maxFileSizeMB = 1800;
+                const maxFileSizeMB = 400;
 
                 if (fileSizeBytes / (1024 * 1024) > maxFileSizeMB) {
                     await sendWithReaction(sock, m.key.remoteJid, '🚫', `File size (${formatBytes(fileSizeBytes)}) exceeds limit of ${maxFileSizeMB} MB.`, m);
