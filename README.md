@@ -17,7 +17,7 @@ To get started with Hacxk-MD, follow these steps for various server environments
 
 ## First, Obtain a Session 🔐
 
-Visit the [JUST HOST THIS AND GO TO YOUR HOSTING PROVIDER SENDING URL)](https://github.com/hacxk/Hacxk-MD) and scan the QR code or enter the pairing code. Once completed, the session file will be sent to your paired WhatsApp number. Retrieve that session file.
+Visit the [HACXK AUTH!](https://hacxkauth.onrender.com) and scan the QR code or enter the pairing code. Once completed, the session file will be sent to your paired WhatsApp number. Retrieve that session file.
 
 > [!CAUTION]
 >
