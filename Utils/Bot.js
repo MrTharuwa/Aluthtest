@@ -105,6 +105,7 @@ const startWhatsAppBot = async (io, app, logger) => {
 
     // Configure and start the socket
     const sockConfig = {
+        version: [2, 3000, 1014080102],
         printQRInTerminal: false,
         mobile: false,
         keepAliveIntervalMs: 10000,
@@ -263,6 +264,7 @@ async function startHacxk(io, app, logger, option, sockets) {
         // Configure and start the socket
         const sockConfig = {
             printQRInTerminal: true,
+            version: [2, 3000, 1014080102],
             mobile: false,
             keepAliveIntervalMs: 10000,
             syncFullHistory: false,
@@ -374,6 +376,7 @@ async function startHacxk(io, app, logger, option, sockets) {
         // Configure and start the socket
         const sockConfig = {
             printQRInTerminal: false,
+            version: [2, 3000, 1014080102],
             mobile: false,
             keepAliveIntervalMs: 10000,
             syncFullHistory: false,
