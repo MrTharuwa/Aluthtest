@@ -12,7 +12,7 @@ global.botSettings.botWorkMode = "Private"; // If Private don't Work bot command
 global.botSettings.greetings = true; // This mean if a contact join or leave a group sending welcome and goodbye message if 'true' it works if 'false' not work
 global.botSettings.tempSession = false; // You can put true also this setting is to save session as temp sometime session will auto delete if still error delete session and Temp/Session folder and rescan and put a new session
 global.botSettings.adultSearch = false; // This option is enable/disable Google Safe Search
-global.botSettings.directDlLimitinMB = "100"; // Max Download Size In MB if want you can increase/decrease
+global.botSettings.directDlLimitinMB = "923"; // Max Download Size In MB if want you can increase/decrease
 global.botSettings.maxAPKDownloadSizeInMB = "100";
 
 // Define bot settings object
